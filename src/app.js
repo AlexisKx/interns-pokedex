@@ -71,7 +71,9 @@ if (nodeEnv !== 'test') {
   app.listen(PORT, () => {
     console.log(`Pokedex server running at http://localhost:${PORT}`);
   });
+  
 }
+
 
 // Export for testing
 export default app;
